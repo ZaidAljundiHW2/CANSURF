@@ -1,5 +1,0 @@
-train: /content/total_dataset/train/images
-val: /content/total_dataset/val/images
-
-nc: 1
-names: ['debris']

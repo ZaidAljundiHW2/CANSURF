@@ -1,0 +1,5 @@
+train: /content/total_dataset_per_video/train/images
+val: /content/total_dataset_per_video/val/images
+
+nc: 1
+names: ['debris']
