@@ -28,7 +28,7 @@ CANSURF/
 
 The raw dataset contains 7,171 images of aluminum cans floating on water. Annotations are in YOLO format (bounding boxes).
 
-For the full augmented dataset used in the paper, run the augmentation script as described below.
+For the full augmented dataset used in the paper, run the augmentation script as is below without any augmentation type modification.
 
 The raw dataset files are hosted on Zenodo: [insert DOI link]
 
@@ -36,7 +36,7 @@ The raw dataset files are hosted on Zenodo: [insert DOI link]
 
 ## Augmentation
 
-The augmentation script (`augment.py`) applies 10 augmentation types to each training image, expanding the training set from ~5.3k to ~55k images. The validation set is left unaugmented to preserve evaluation integrity.
+The augmentation script (`augment.py`) applies 10 augmentation types to each training image, expanding the training set. The validation set is left unaugmented to preserve evaluation integrity.
 
 ### Augmentation Types
 
@@ -81,7 +81,7 @@ augmentation_types = [
 
 Remove any types you don't want. Each entry in this list is applied once to every training image.
 
-It is recommended to also edit the `augmentation_functions` dictionary in `augment_image_and_label()`:
+It is recommended to correspondigly remove any unwanted augmentation types in the `augmentation_functions` dictionary in `augment_image_and_label()`:
 
 ```python
 augmentation_functions = {
