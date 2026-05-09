@@ -1,6 +1,6 @@
 # CANSURF: An ASV-View Can Dataset for Detection and Tracking of Surface-Level Debris
 
-This repository contains the raw CANSURF dataset and the augmentation script used to produce the full training set described in the paper. The repository contains the latest version of the dataset. To view all the versions of the dataset, please visit the Zenodo archive of the dataset: https://doi.org/10.5281/zenodo.20057287
+This repository contains the raw CANSURF dataset and the augmentation script used to produce the full training set described in the paper. The repository contains the latest version of the dataset. To view all the versions of the dataset, please visit the Zenodo archive of the dataset: https://doi.org/10.5281/zenodo.20100657
 
 **Paper:** Z. Aljundi, A. Moosa, M. Elemam, and Z. F. Rahmatullah, "CANSURF: An ASV-View Can Dataset and Benchmark for Detection and Tracking of Surface-Level Debris," *2025 8th International Conference on Signal Processing and Information Security (ICSPIS)*, 2025. DOI: [10.1109/ICSPIS67605.2025.11318414](https://doi.org/10.1109/ICSPIS67605.2025.11318414)
 
