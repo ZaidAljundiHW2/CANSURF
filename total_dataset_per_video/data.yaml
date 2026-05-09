@@ -1,5 +1,0 @@
-train: /content/CANSURF/train/images
-val: /content/CANSURF/val/images
-
-nc: 1
-names: ['debris']
