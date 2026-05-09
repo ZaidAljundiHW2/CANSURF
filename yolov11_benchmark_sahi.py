@@ -193,8 +193,8 @@ def benchmark_yolo_sahi(model_path, dataset_path,
 # Example Usage
 # ========================
 if __name__ == "__main__":
-    MODEL_PATH = "./best_per_video.pt"          # path to YOLOv11 model
-    DATASET_PATH = "./total_dataset_per_video/val"  # dataset folder with /images and /labels
+    MODEL_PATH = " "          # path to YOLOv11 model
+    DATASET_PATH = "./CANSURF/val"  # dataset folder with /images and /labels
 
     benchmark_yolo_sahi(
         model_path=MODEL_PATH,

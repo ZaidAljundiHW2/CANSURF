@@ -97,7 +97,7 @@ augmentation_functions = {
 
 ### YOLOv11 Benchmarking
 
-A benchmarking script is provided to evaluate a trained YOLOv11 model on the CANSURF validation dataset using standard object detection metrics including:
+Benchmarking scripts are provided to evaluate a trained YOLOv11 model on the CANSURF validation dataset using standard object detection metrics including:
 
 - Precision
 - Recall
@@ -105,11 +105,11 @@ A benchmarking script is provided to evaluate a trained YOLOv11 model on the CAN
 - Mean IoU
 - Confusion Matrix
 
-The script performs inference on all images in the validation set and compares predictions against YOLO-format ground truth annotations.
+The two scripts include a standard YOLOv11 benchmarking script as well as a YOLOv11 + SAHI benchmarking script. They perform inference on all images in the validation set and compare predictions against YOLO-format ground truth annotations.
 
 ### Usage
 
-Before running the benchmarking script, modify the following variables in the script:
+Before running the benchmarking scripts, modify the following variables in the script:
 
 ```python
 MODEL_PATH = "path/to/your/trained_model.pt"
