@@ -95,8 +95,47 @@ augmentation_functions = {
 
 ## Benchmarking
 
+### YOLOv11 Benchmarking
 
----
+A benchmarking script is provided to evaluate a trained YOLOv11 model on the CANSURF validation dataset using standard object detection metrics including:
+
+- Precision
+- Recall
+- F1-score
+- Mean IoU
+- Confusion Matrix
+
+The script performs inference on all images in the validation set and compares predictions against YOLO-format ground truth annotations.
+
+### Usage
+
+Before running the benchmarking script, modify the following variables in the script:
+
+```python
+MODEL_PATH = "path/to/your/trained_model.pt"
+DATASET_PATH = "./CANSURF/val"
+```
+
+- `MODEL_PATH` should point to your trained YOLOv11 `.pt` weights file.
+- `DATASET_PATH` should point to the validation dataset directory containing:
+  - `images/`
+  - `labels/`
+
+### Run Benchmark
+
+```bash
+python benchmark.py
+```
+
+### Output
+
+The script reports per-class metrics in the terminal and automatically saves a confusion matrix image:
+
+```text
+yolov11_confusion_matrix.png
+```
+
+The confusion matrix is generated using predictions across IoU thresholds from `0.5` to `0.95`.
 
 ## Citation
 
