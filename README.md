@@ -137,6 +137,11 @@ yolov11_confusion_matrix.png
 
 The confusion matrix is generated using predictions across IoU thresholds from `0.5` to `0.95`.
 
+---
+## Training
+
+The script `train.py` is responsible for training the model based off of the CANSURF dataset. The script currently points to the YAML of the raw dataset, but should be changed if an augmented version is created. Refer to the Ultralytics documentation for further hyperparameter customisation.
+
 ## Citation
 
 If you use CANSURF in your research, please cite:
