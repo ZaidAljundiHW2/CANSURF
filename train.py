@@ -10,5 +10,4 @@ results = model.train(
     patience=15,
     batch=64,
     
-    
 )
