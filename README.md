@@ -33,8 +33,6 @@ The raw dataset contains 7,171 images of aluminum cans floating on water. Annota
 
 For the full augmented dataset used in the paper, run the augmentation script as is below without any augmentation type modification.
 
-The raw dataset files are hosted on Zenodo: [insert DOI link]
-
 ---
 
 ## Augmentation
